@@ -364,6 +364,12 @@
         search: '/results?search_query={}',
         url: 'https://youtube.com/feed/subscriptions',
       },
+      {
+        hues: ['115', '125'],
+        key: '-',
+        name: 'Wordle',
+        url: 'https://www.nytimes.com/games/wordle/index.html',
+      },
     ].map((command) => {
       const hsla = (hue, saturation = 'var(--command-color-saturation)') =>
         `hsla(${hue}, ${saturation}, var(--command-color-lightness), var(--command-color-alpha))`;
